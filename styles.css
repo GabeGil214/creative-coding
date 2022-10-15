@@ -1,0 +1,44 @@
+.modifiers {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+    color: #efefef;
+    margin-bottom: 0.5rem;
+}
+
+body {
+    background: #111;
+}
+
+label span {
+    color: #efefef;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+input[type="color" i] {
+    margin: 0.25rem 0 0 3rem;
+    padding: 0;
+    border: none;
+    background: none;
+    width: 25px;
+}
+
+#input button {
+    background: none;
+    border: 2px solid #efefef;
+    color: #efefef;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    transition: all 0.1s 0.1s linear;
+}
+
+#input button:hover {
+    background: #efefef;
+    color: #111;
+}
