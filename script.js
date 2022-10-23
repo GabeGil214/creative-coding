@@ -17,6 +17,7 @@ var particleColors = [];
 
 function preload() {
     img = loadImage("./victor-grabarczyk.webp");
+    song = loadSound("./trap.mp3", loaded);
 }
 
 function setup() {
@@ -53,7 +54,6 @@ function setup() {
     mic = new p5.AudioIn();
     fft = new p5.FFT();
 
-    song = loadSound("./trap.mp3", loaded);
 
     img.filter(BLUR, 12);
 }
