@@ -16,8 +16,9 @@ var circleColor = [];
 var particleColors = [];
 
 function preload() {
+    soundFormats('mp3');
     img = loadImage("./victor-grabarczyk.webp");
-    song = loadSound("./trap.mp3", loaded);
+    song = loadSound('assets/trap');
 }
 
 function setup() {
@@ -53,7 +54,7 @@ function setup() {
     amp = new p5.Amplitude();
     mic = new p5.AudioIn();
     fft = new p5.FFT();
-
+    loaded()
 
     img.filter(BLUR, 12);
 }
