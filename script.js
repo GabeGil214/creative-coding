@@ -18,7 +18,7 @@ var particleColors = [];
 function preload() {
     soundFormats('mp3');
     img = loadImage("./victor-grabarczyk.webp");
-    song = loadSound('assets/trap');
+    song = loadSound('/assets/trap');
 }
 
 function setup() {
